@@ -1,0 +1,51 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em 2.5em;
+    width: 90%;
+}
+label, input {
+    margin: .8em;
+}
+.sub, #copy {
+    width: 5em;
+    height: 3em;
+    transition: all .5s;
+    border-radius: 15%;
+    border: none;
+}
+.sub:hover, #copy:hover {
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+}
+#message {
+    width: 98%;
+    height: 3em;
+}
+#messageContainer {
+    border: 1px solid black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#url {
+    border: 1px solid black;
+    padding: .8em;
+    width: 30%;
+}
+.message {
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+    margin: .3em;
+}
+a:hover {
+    text-decoration: underline;
+}
